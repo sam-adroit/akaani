@@ -5,6 +5,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .left-sidebar {
+    width: max(20%, 200px);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .left-sidebar {
     display: none;

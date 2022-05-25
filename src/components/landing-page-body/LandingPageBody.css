@@ -47,6 +47,16 @@
   margin-top: var(--sp-lg);
 }
 
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .landing-page-body-header h2 {
+    font-size: var(--fs-xlg);
+  }
+  .landing-page-body-header .search input {
+    width: 200px;
+    font-size: var(--fs-xxsm);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .Landing-page-body {
     width: 100%;
