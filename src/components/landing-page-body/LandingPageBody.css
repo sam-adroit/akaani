@@ -1,0 +1,119 @@
+.Landing-page-body {
+  width: 66%;
+}
+
+.landing-page-body-container {
+  width: 96%;
+  margin: var(--sp-lg) auto;
+}
+.landing-page-body-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page-body-header h2 {
+  font-size: var(--fs-xxlg);
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.landing-page-body-header .search {
+  position: relative;
+  margin-right: 2em;
+}
+
+.landing-page-body-header .search input {
+  width: 260px;
+  font-size: var(--fs-xsm);
+  padding: var(--sp-xsm) var(--fs-xxlg);
+  border-radius: 6px;
+  border: 1px solid #f0f0f0;
+  color: #c7c3c3;
+  background: transparent;
+}
+
+.landing-page-body-header .search span {
+  position: absolute;
+  color: #c7c3c3;
+  left: var(--sp-xsm);
+  top: var(--sp-sm);
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-lg);
+  margin-top: var(--sp-lg);
+}
+
+.basket {
+  margin-top: var(--sp-xlg);
+}
+
+.basket-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket-heading h2 {
+  font-size: var(--fs-xlg);
+  font-weight: 900;
+  color: #020202;
+}
+
+.basket-heading button {
+  padding: var(--sp-xsm) var(--sp-xlg);
+  font-size: var(--fs-sm);
+  color: #ffffff;
+  background: var(--pry-clr);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.basket-link {
+  margin-top: var(--sp-lg);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: var(--sp-lg);
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.basket-link--item {
+  padding-bottom: 6px;
+  color: #c0c0c0;
+  font-size: 15px;
+}
+
+.actives {
+  border-bottom: 2px solid var(--pry-clr);
+  color: var(--pry-clr);
+}
+
+.basket-body {
+  position: relative;
+}
+
+.basket-body span {
+  display: block;
+  width: max-content;
+  margin: 5em auto 0 auto;
+  padding: var(--sp-sm);
+  background: rgba(84, 154, 154, 0.1);
+  border-radius: 50%;
+}
+
+.basket-body p {
+  text-align: center;
+  color: #aaa8a8;
+  font-size: var(--fs-m);
+  margin: var(--sp-xsm) 0 12em 0;
+}
+
+.basket-body-bottom {
+  margin-left: auto;
+  width: max-content;
+  cursor: pointer;
+}

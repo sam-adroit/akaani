@@ -1,0 +1,85 @@
+.cart-item {
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(86, 177, 160, 0.2);
+  padding: 18px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.cart-item + .cart-item {
+  margin-top: 10px;
+}
+.cart-item .coconut {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #c9e8d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+.cart-item .coconut img {
+  width: 1.8em;
+}
+
+.cart-item .name-price {
+  margin-right: 50px;
+}
+
+.cart-item .name-price p {
+  color: #514d4d;
+  font-size: 12px;
+}
+
+.cart-item .name-price h3 {
+  color: #2e2c2c;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cart-item select {
+  border: 0;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 1px 10px;
+  font-weight: 700;
+}
+
+.cart-item .letter {
+  margin-left: auto;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #406767;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.cart-item .second-letter {
+  position: relative;
+  background: #d1b378;
+}
+
+.cart-item .second-letter::before {
+  content: "M";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -70%;
+  z-index: -1;
+  padding-inline: 5px;
+  border-radius: 50%;
+  background: #277292;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.R {
+  color: #3f4246;
+}

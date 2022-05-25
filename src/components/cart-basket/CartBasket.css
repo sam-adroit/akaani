@@ -1,0 +1,26 @@
+.basket-cart {
+  width: 50px;
+  height: 50px;
+  font-size: var(--fs-xxlg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 50%;
+  background: var(--pry-clr);
+  box-shadow: -1px 3px 22px 3px rgba(141, 152, 152, 0.7);
+  position: relative;
+}
+
+.basket-cart::before {
+  content: "4";
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  font-size: 9px;
+  font-weight: 900;
+  color: #000000;
+  background: #ffffff;
+  padding: 1px 3px;
+  border-radius: 50%;
+}
