@@ -29,6 +29,15 @@
   margin-right: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  .cart-item .coconut {
+    margin-right: 8px;
+  }
+  .cart-item .name-price {
+    margin-right: 25px;
+  }
+}
+
 .cart-item .name-price p {
   color: #514d4d;
   font-size: 12px;
