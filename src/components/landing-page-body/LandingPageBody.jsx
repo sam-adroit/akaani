@@ -29,8 +29,8 @@ function LandingPageBody({ changeData, cardDetails }) {
             <button>Create Basket</button>
           </div>
           <ul className="basket-link">
-            <li className="basket-link--item ">Paid</li>
-            <li className="basket-link--item actives">Pending</li>
+            <li className="basket-link--item actives">Paid</li>
+            <li className="basket-link--item ">Pending</li>
             <li className="basket-link--item">Completed</li>
           </ul>
           <div className="basket-body">
