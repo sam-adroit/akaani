@@ -2,3 +2,21 @@
   display: flex;
   position: relative;
 }
+
+.show-sidebar {
+  position: absolute;
+  top: 0.8em;
+
+  z-index: 2;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.icon-right {
+  left: 10em;
+}
+
+.icon-left {
+  top: 0.6em;
+  left: 0.8em;
+}

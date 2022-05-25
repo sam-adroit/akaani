@@ -47,6 +47,24 @@
   margin-top: var(--sp-lg);
 }
 
+@media screen and (max-width: 600px) {
+  .Landing-page-body {
+    width: 100%;
+  }
+  .landing-page-body-header {
+    display: block;
+  }
+
+  .landing-page-body-header h2 {
+    font-size: var(--fs-xlg);
+    padding-top: 1em;
+  }
+
+  .cardList {
+    justify-content: center;
+  }
+}
+
 .basket {
   margin-top: var(--sp-xlg);
 }

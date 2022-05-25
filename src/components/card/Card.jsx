@@ -5,7 +5,6 @@ import { BsShop } from "react-icons/bs";
 import "./Card.css";
 
 function Card({ cardDetail }) {
-  console.log(cardDetail);
   return (
     <div className="card-item">
       <div className="icon ">

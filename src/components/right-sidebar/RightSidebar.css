@@ -3,6 +3,12 @@
   border-left: 2px solid var(--border-clr);
 }
 
+@media screen and (max-width: 800px) {
+  .right-sidebar {
+    display: none;
+  }
+}
+
 .right-sidebar-center {
   width: 90%;
   margin: 0 auto;

@@ -2,9 +2,11 @@ import React from "react";
 import { FaUserCircle, FaShoppingBasket, FaHistory } from "react-icons/fa";
 import "./LeftSidebar.css";
 
-function LeftSidebar() {
+function LeftSidebar({ showSidebar }) {
   return (
-    <div className="left-sidebar">
+    <div
+      className={showSidebar ? "left-sidebar show-siderbar" : "left-sidebar"}
+    >
       <div className="center-nav">
         <div className="logo">
           <img src="./logo.png" alt="" />
