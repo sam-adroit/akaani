@@ -4,12 +4,19 @@
 }
 
 .show-sidebar {
+  display: none;
   position: absolute;
   top: 0.8em;
 
   z-index: 2;
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .show-sidebar {
+    display: block;
+  }
 }
 
 .icon-right {
